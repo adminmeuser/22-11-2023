@@ -1,0 +1,34 @@
+.bx-main {
+   width: 500px; height: auto;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0 auto;
+    display: table;
+   
+}
+button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+button:hover {
+    background-color:tan;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+
+th.selected-column {
+  background-color: yellow;
+  color: black;
+}
+
+
+th.highlight-column {
+  border: 2px solid red; 
+  background-color: lightgray;
+}
+table {
+    padding: 10px;
+}
